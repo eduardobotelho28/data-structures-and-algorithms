@@ -42,6 +42,7 @@ LinkedList.prototype.append = function (value) {
 };
 
 
+//remove from front
 LinkedList.prototype.remove_from_front = function () { 
 
     if(!this.head) {
@@ -59,6 +60,7 @@ LinkedList.prototype.remove_from_front = function () {
     return removed_value
 };
 
+//remove from end
 LinkedList.prototype.remove_from_end = function () { 
 
     if(!this.tail) {
@@ -76,7 +78,6 @@ LinkedList.prototype.remove_from_end = function () {
     return removed_value
 };
 
-// Exemplo de uso
 const list = new LinkedList();
 list.append(1);
 list.append(2);
