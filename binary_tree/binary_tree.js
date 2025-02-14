@@ -118,6 +118,32 @@ Binary_tree.prototype.dfs_recursive = function (data, node) {
         return true
 }
 
+Binary_tree.prototype.bfs = function (data) {
+
+    if(!this.root) 
+        return false
+
+    const queue = []
+    queue.push(this.root)
+
+    while (queue.length) {
+        let current_node = queue.shift()
+
+        if(current_node.data == data)
+            return true
+
+        if(current_node.left) 
+            queue.push(current_node.left)
+
+        if(current_node.right) 
+            queue.push(current_node.right)
+    }
+
+    return false
+
+}
+
+
 // Testando a árvore
 const tree = new Binary_tree();
 tree.insert(5);
@@ -127,4 +153,4 @@ tree.insert(10);
 tree.insert(15);
 tree.insert(7);
 
-console.log(tree.dfs(11))
+console.log(tree.bfs(11))
