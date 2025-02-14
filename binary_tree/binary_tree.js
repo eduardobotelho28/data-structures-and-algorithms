@@ -57,13 +57,56 @@ Binary_tree.prototype.search_recursive = function (node, data) {
 
 }   
 
+Binary_tree.prototype.preorder_transversal = function () {
+    const result = []
+    this.preorder_recursive(this.root,result)
+    return result
+}
+
+Binary_tree.prototype.preorder_recursive = function (node, result) {
+    if(node) {
+        result.push(node.data)
+        this.preorder_recursive(node.left, result)
+        this.preorder_recursive(node.right, result)
+    }
+}
+
+Binary_tree.prototype.inorder_transversal = function () {
+    const result = []
+    this.inorder_recursive(this.root,result)
+    return result
+}
+
+Binary_tree.prototype.inorder_recursive = function (node, result) {
+    if(node) {
+        this.inorder_recursive(node.left, result)
+        result.push(node.data)
+        this.inorder_recursive(node.right, result)
+    }
+}
+
+Binary_tree.prototype.postorder_transversal = function () {
+    const result = []
+    this.postorder_recursive(this.root,result)
+    return result
+}
+
+Binary_tree.prototype.postorder_recursive = function (node, result) {
+    if(node) {
+        this.postorder_recursive(node.left, result)
+        this.postorder_recursive(node.right, result)
+        result.push(node.data)
+    }
+}
+
+
 // Testando a árvore
 const tree = new Binary_tree();
-tree.insert(10);
 tree.insert(5);
+tree.insert(3);
+tree.insert(1);
+tree.insert(10);
 tree.insert(15);
 tree.insert(7);
-tree.insert(3);
 
-console.log(tree.search(7));  // true
-console.log(tree.search(12)); // false
+console.log(tree.postorder_transversal())
