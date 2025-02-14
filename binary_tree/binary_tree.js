@@ -100,6 +100,24 @@ Binary_tree.prototype.postorder_recursive = function (node, result) {
 }
 
 
+// --------------------------------------------------------------------- //
+// --------------------------------------------------------------------- // 
+
+Binary_tree.prototype.dfs = function (data) {
+    return this.dfs_recursive(data, this.root)
+}
+
+Binary_tree.prototype.dfs_recursive = function (data, node) {
+    if(!node) 
+        return false
+    if(node.data == data) 
+        return true
+    if(this.dfs_recursive(data,node.left))
+        return true
+    if(this.dfs_recursive(data,node.right))
+        return true
+}
+
 // Testando a árvore
 const tree = new Binary_tree();
 tree.insert(5);
@@ -109,4 +127,4 @@ tree.insert(10);
 tree.insert(15);
 tree.insert(7);
 
-console.log(tree.postorder_transversal())
+console.log(tree.dfs(11))
