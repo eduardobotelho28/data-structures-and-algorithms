@@ -1,57 +1,61 @@
-# 🚀 Deep Dive into Data Structures & Algorithms  
+# 🚀 Mergulho em Estruturas de Dados e Algoritmos
 
-## 🇧🇷 Versão em Português  
+Este repositório documenta minha jornada explorando **Estruturas de Dados** e **Algoritmos**, desde conceitos fundamentais até técnicas avançadas. O foco é consolidar o aprendizado por meio de implementações eficientes e bem estruturadas.
 
-Este repositório contém minha jornada de estudos em **Estruturas de Dados e Algoritmos**, abordando conceitos fundamentais e implementações práticas. O objetivo é consolidar o entendimento através de código bem estruturado e otimizações eficientes.  
+## 📌 Conteúdo
 
-### 📌 O que você encontrará aqui?  
-
-- **🔢 Estruturas de Dados**:  
+- **🔢 Estruturas de Dados**  
+  - Arrays  
   - Listas Encadeadas (`Linked List`)  
+  - Árvores (`Binary Tree`, `Heap`)  
+  - Grafos (`Graph`)  
   - Pilhas e Filas (`Stack & Queue`)  
-  - Árvores  
-  - Grafos  
-  - Tabelas Hash (`Hash Table`)  
+  - Tabelas Hash (`HashMap`)  
 
-- **⚡ Algoritmos Clássicos**:  
+- **⚡ Algoritmos**  
   - Ordenação (`Bubble Sort`, `QuickSort`, `MergeSort`)  
   - Busca (`Binary Search`, `Linear Search`)  
+  - Caminho Mínimo (`Dijkstra`)  
+  - Problema da Mochila (`Knapsack`)  
 
-- **🛠️ Técnicas e Paradigmas**:  
-  - Recursão
-  - Dividir para Conquistar  
-  - Bit Manipulation (`Right Shift`, `Left Shift`)  
-  - Sliding Window
-  - Two Pointers  
+- **🛠️ Técnicas e Paradigmas**  
+  - Programação Dinâmica  
+  - Recursão e Dividir para Conquistar  
+  - Manipulação de Bits (`Right Shift`, `Left Shift`)  
+  - Sliding Window & Two Pointers  
 
-### 🎯 Objetivo  
+## 🎯 Objetivo
 
-Este repositório serve como um material de estudo para fortalecer a compreensão de **estrutura de dados e algoritmos complexos**, explorando tanto a teoria quanto a prática.
+Criar uma base sólida em **Estruturas de Dados e Algoritmos**, explorando tanto a teoria quanto a prática, com implementações organizadas e bem comentadas.
 
+---
 
-## 🇺🇸 English Version  
+# 🚀 Deep Dive into Data Structures & Algorithms
 
-This repository contains my journey of studying **Data Structures and Algorithms**, covering fundamental concepts and practical implementations. The goal is to consolidate understanding through well-structured code and efficient optimizations.  
+This repository documents my journey exploring **Data Structures** and **Algorithms**, covering fundamental concepts to advanced techniques. The goal is to reinforce learning through efficient and well-structured implementations.
 
-### 📌 What will you find here?  
+## 📌 Contents
 
-- **🔢 Data Structures**:  
-  - Linked Lists  
-  - Stacks and Queues
-  - Trees  
-  - Graphs  
-  - Hash Tables
+- **🔢 Data Structures**  
+  - Arrays  
+  - Linked Lists (`Linked List`)  
+  - Trees (`Binary Tree`, `Heap`)  
+  - Graphs (`Graph`)  
+  - Stacks & Queues (`Stack & Queue`)  
+  - Hash Tables (`HashMap`)  
 
-- **⚡ Classic Algorithms**:  
+- **⚡ Algorithms**  
   - Sorting (`Bubble Sort`, `QuickSort`, `MergeSort`)  
   - Searching (`Binary Search`, `Linear Search`)  
+  - Shortest Path (`Dijkstra`)  
+  - Knapsack Problem (`Knapsack`)  
 
-- **🛠️ Techniques and Paradigms**:  
+- **🛠️ Techniques & Paradigms**  
+  - Dynamic Programming  
   - Recursion & Divide and Conquer  
   - Bit Manipulation (`Right Shift`, `Left Shift`)  
   - Sliding Window & Two Pointers  
 
-### 🎯 Purpose  
+## 🎯 Goal
 
-This repository serves as a study resource to strengthen the understanding of **complex data structures and algorithms**, exploring both theory and practice.  
-
+Build a solid foundation in **Data Structures & Algorithms**, exploring both theory and practice with well-organized and documented implementations.
